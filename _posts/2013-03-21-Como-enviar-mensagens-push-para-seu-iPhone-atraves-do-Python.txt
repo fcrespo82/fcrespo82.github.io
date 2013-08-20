@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Como enviar mensagens push para seu iPhone através do Python"
+date:   2013-03-21
+categories: automação notificação
+---
+
+Até alguns dias atrás utilizava o [Boxcar][1] para enviar mensagens push para
+meu iPhone, porém ele ficou sem atualização para o iPhone 5 e não estava
+recebendo mais nenhuma mensagem nele.
+
+Fui à busca por um outro modo de mandar informações para meu celular de maneira
+rápida e descobri o [Pushover][2], o problema dele é que o [app][3] custa
+\$4.99, porém cumpre o que promete.
+
+De qualquer forma, ambos estes serviços estão limitados ao envio de informações
+de serviços parceiros ou criação de apps através de sua API.
+
+Fui atrás da API do Pushover para ver o que conseguia e acabei por fazer este
+simples programa (prova de conceito) em python para enviar mensagens para o
+cliente do Pushover para iOS.
+
+Pra você usar meu script vai precisar criar uma conta no Pushover e criar um app
+dentro do site deles para obter um *Token*, até poderia disponibilizar o meu,
+mas caso o código fosse muito compartinhado todos poderiam ter problemas pois a
+API deles é gratuita para até 7500 mensagens por mês.
+
+{% gist 5217065 %}
+
+É isso, ainda estou me habituando a escrever neste blog e podemos ter ou não
+posts diários. Mas conto com meus leitores para me darem dicas de como melhorar
+o blog.
+
+[1]: http://boxcar.io
+
+[2]: http://pushover.net
+
+[3]: https://itunes.apple.com/us/app/pushover-notifications/id506088175?ls=1&mt=8

@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Porque sua linha do tempo do Twitter é um lixo"
+date:   2013-06-25
+categories: twitter opinião
+---
+
+Muitas pessoas que conheço deixaram de usar o [Twitter][tw] porque suas timelines tinham muito pouca informação relevante ou pouca coisa interessante. Se este é o seu caso tenho uma coisa para dizer: Você está seguindo as pessoas erradas.
+
+Não seja duro com você, eu também já cometi este erro, mas recentemente aprendi e corrigi meus erros. As redes socias foram feitas para que você se conecte com pessoas, mas não necessariamente quem você conhece realmente.
+
+Cada rede social tem um foco. O [Facebook][fb] por exemplo eu uso apenas para me conectar as pessoas que eu conheço ou considero amigas de alguma forma. O [LinkedIn][li] para contatos profissionais. O Twitter para seguir pessoas e sites que eu considero interessantes e que podem trazer alguma coisa de útil para o meu crescimento pessoal.
+
+No momento que percebi isso e fiz uma limpeza nas pessoas que eu sigo, meu Twitter ficou muito mais interessante e é por isso que também estou gostando bastante da [App.net][adn]. Por ser uma rede social fechada poucas pessoas reais que conheço estão nela, e por isso consigo focar em coisas que gosto e que me trazem conhecimento.
+
+Se você está tendo problemas com suas redes sociais, talvez seja a hora de reavaliar as "amizades virtuais" em cada uma delas. Faça a experiência e depois me conte o se trouxe benefícios ou não.
+
+Vocês podem me encontrar no [Twitter][twf] e [App.net][adnf] ou pelo [email][mail]
+
+[fb]: http://facebook.com
+[tw]: http://twitter.com
+[li]: http://linkedin.com
+[adn]: http://app.net
+[mail]: mailto:fernando@crespo.in
+[twf]: http://twitter.com/fcrespo82
+[adnf]: http://app.net/fcrespo82

@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Blocos inteligentes para apps na iTunes Store"
+date:   2013-04-09
+categories: wordpress automação API python
+---
+
+Leio muitos posts e reviews de aplicativos, mas as vezes coloco na minha lista
+de leitura pois não tenho tempo hábil para ler na hora e acabo verificando esses
+links após alguns dias.
+
+Sites como [Blog do iPhone][1] e [MacMagazine][2] sempre trazem apps e as vezes
+listas de apps muito interessantes. O problema é que alguns deles estão em
+promoção e após alguns dias o valor deles já não é o mesmo e as informações na
+página ficam desatualizadas.
+
+Pensando nisso fiz um pequeno javascript que através do id da iTunes store do
+app gera um objeto com os dados atualizados na hora. Aqui está o código e espero
+que sirva de base para alguns.
+
+{% gist 5348246 %}
+
+Qualquer dúvida sobre o código podem entrar em contato comigo através do twitter
+[@fcrespo82][3]
+
+[1]: http://blogdoiphone.com/2013/04/real-racing-3-salvara-evolucao-do-jogo-no-icloud-em-proxima-atualizacao/
+
+[2]: http://macmagazine.com.br/2013/04/09/sheepers-e-o-joguinho-brasileiro-para-ios-que-agrada-a-criancas-e-adultos/
+
+[3]: http://twitter.com/@fcrespo82

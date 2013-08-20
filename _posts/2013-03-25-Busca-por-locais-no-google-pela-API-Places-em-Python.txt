@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Busca por locais no google pela API places em Python"
+date:   2013-03-25
+categories: automação google API python
+---
+
+Sigo algumas pessoas no twitter que adoram tecnologia e ainda mais automatizar
+vários aspectos de seu workflow. Em um tweet uma delas perguntou para um de seus
+seguidores sobre como fazer um script para Pythonista[^1] que buscasse um
+endereço no google e abrisse o primeiro resultado no aplicativo de mapas da
+Apple.
+
+<blockquote class="twitter-tweet"><p>I may need to talk to <a href="https://twitter.com/viticci">@viticci</a> about a Pythonista script to search Google and send the result to Maps.</p>&mdash; David Barnard (@drbarnard) <a href="https://twitter.com/drbarnard/statuses/315159414069932032">March 22, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Como tenho uma certa experiencia com Python, e uma queda por desafios em
+programação, fui tentar resolver o problema e encontrei a seguinte alternativa.
+
+{% gist 5223935 %}
+
+Para utilizá-lo você deve cadastrar uma ação no Launch Center Pro[^2] com a
+seguinte url [pythonista://SearchGooglePlaces/?action=run&argv=\[prompt\]][5].
+Esta ação irá executar o script passando como argumento o endereço digitado no
+prompt do Launch Center Pro. O script então faz uma busca no Google Places e
+abre o aplicativo de mapas da Apple com o endereço do primeiro resultado
+encontrado.
+
+[^1]: [Pythonista][3]: Editor de scripts em python para iOS
+
+[^2]: [Launch Center Pro][4]: Execute ações e não apenas aplicativos
+
+[3]: http://omz-software.com/pythonista
+
+[4]: http://appcubby.com/launch-center/
+
+[5]: pythonista://SearchGooglePlaces/?action=run&argv=[prompt]

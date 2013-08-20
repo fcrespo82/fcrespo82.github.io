@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Executar programa como administrador no mac"
+date:   2013-02-28
+categories: osx mac applescript
+---
+
+Algum tempo atrás estava a procura de um modo de executar algum aplicativo no
+Mac OS X Mountain Lion com privilégios de administrador, do mesmo jeito que no
+Windows. Encontrei um programa chamado [LaunchAsRoot][1], e enquanto ele faz
+exatamente o que eu queria achei um pouco invasivo pois precisava instalar o app
+e então abri-lo e depois arrastar o ícone do app que eu queria rodar como
+administrador para a interface dele. Funcional? Com certeza. Prático? Não pra
+mim.
+
+Foi então que recentemente fiz outra busca e encontrei um
+script, em AppleScript, que executa um app com privilégios de administrador. O
+script é o seguinte:
+
+{% gist 5215611 %}
+
+Com a ajuda do Automator (software de automação nativo do OS X) criei um
+"serviço" que recebe o aplicativo de entrada pelo automator e executa o script
+nele. Deste modo o modo de executar ficou muito mais clean, pois posso acessá-lo
+pelo botão direito do mouse/trackpad, e não preciso de nenhum programa externo
+instalado em meu Mac que já possui apps demais!
+
+[1]: <http://www.limit-point.com/Utilities/LaunchAsRoot.html>
