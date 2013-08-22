@@ -5,41 +5,40 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
-
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <link rel="stylesheet" href="/css/webicons.css">
     </head>
     <body>
-
         <div class="container">
           <div class="site">
             <div class="header">
               <h1 class="title"><a href="/">{{ site.name }}</a></h1>
               <a class="extra" href="/">home</a>
             </div>
-
                 {{ content }}
-
             <div class="footer">
               <div class="contact">
                 <p>
                   Fernando Xavier de Freitas Crespo<br />
-                  fernando@crespo.in
+                  <a href="mailto:fernando@crespo.in">fernando@crespo.in</a>
                 </p>
               </div>
-              <div class="contact">
+              <div class="contact no-svg">
                 <p>
-                  <a href="http://github.com/fcrespo82/">github.com/fcrespo82</a><br />
-                  <a href="http://twitter.com/fcrespo82/">twitter.com/fcrespo82</a><br />
+                  <a href="http://github.com/fcrespo82/" class="webicon github">github</a>
+                  <a href="http://twitter.com/fcrespo82/" class="webicon twitter">twitter</a>
+                  <a href="http://app.net/fcrespo82/" class="webicon adn">app.net</a>
+                  <a href="http://www.linkedin.com/in/fernandoxfcrespo" class="webicon linkedin">linkedin</a>
+                  <a href="http://instagram.com/fernando82" class="webicon instagram">instagram</a>
+                  <a href="https://plus.google.com/101788643863044247809" class="webicon googleplus">google+</a>
                 </p>
               </div>
             </div>
           </div>
         </div> <!-- /container -->
-
     </body>
 </html>
