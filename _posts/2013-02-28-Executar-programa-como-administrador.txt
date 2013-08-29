@@ -2,7 +2,7 @@
 layout: post
 title:  "Executar programa como administrador no mac"
 date:   2013-02-28
-categories: osx mac applescript
+tags: osx mac applescript
 ---
 
 Algum tempo atrás estava a procura de um modo de executar algum aplicativo no

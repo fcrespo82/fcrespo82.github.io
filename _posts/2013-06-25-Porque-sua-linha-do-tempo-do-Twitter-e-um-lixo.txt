@@ -2,7 +2,7 @@
 layout: post
 title:  "Porque sua linha do tempo do Twitter é um lixo"
 date:   2013-06-25
-categories: twitter opinião
+tags: twitter opinião
 ---
 
 Muitas pessoas que conheço deixaram de usar o [Twitter][tw] porque suas timelines tinham muito pouca informação relevante ou pouca coisa interessante. Se este é o seu caso tenho uma coisa para dizer: Você está seguindo as pessoas erradas.

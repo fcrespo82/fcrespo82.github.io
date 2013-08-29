@@ -2,7 +2,7 @@
 layout: post
 title:  "Como enviar mensagens push para seu iPhone através do Python"
 date:   2013-03-21
-categories: automação notificação
+tags: automação notificação
 ---
 
 Até alguns dias atrás utilizava o [Boxcar][1] para enviar mensagens push para

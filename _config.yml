@@ -2,9 +2,9 @@ name: Fernando's Blog
 markdown: redcarpet
 pygments: true
 
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title/
 
-timezone:    nil
+timezone: America/Sao_Paulo
 
-markdown:	kramdown
-markdown_ext:  markdown,mkd,mkdn,md,txt
+markdown: kramdown
+markdown_ext: markdown,mkd,mkdn,md,txt

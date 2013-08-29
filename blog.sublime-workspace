@@ -8,37 +8,26 @@
 	"buffers":
 	[
 		{
-			"contents": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n        <title>{{ page.title }}</title>\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <!-- syntax highlighting CSS -->\n        <link rel=\"stylesheet\" href=\"/css/syntax.css\">\n        <!-- Custom CSS -->\n        <link rel=\"stylesheet\" href=\"/css/main.css\">\n        <link rel=\"stylesheet\" href=\"/css/webicons.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n          <div class=\"site\">\n            <div class=\"header\">\n              <h1 class=\"title\"><a href=\"/\">{{ site.name }}</a></h1>\n              <a class=\"extra\" href=\"/\">home</a>\n            </div>\n                {{ content }}\n            <div class=\"footer\">\n              <div class=\"contact\">\n                <p>\n                  Fernando Xavier de Freitas Crespo<br />\n                  <a href=\"mailto:fernando@crespo.in\">fernando@crespo.in</a>\n                </p>\n              </div>\n              <div class=\"contact no-svg\">\n                <p>\n                  <a href=\"http://github.com/fcrespo82/\" class=\"webicon github\">github</a>\n                  <a href=\"http://twitter.com/fcrespo82/\" class=\"webicon twitter\">twitter</a>\n                  <a href=\"http://app.net/fcrespo82/\" class=\"webicon adn\">app.net</a>\n                  <a href=\"http://www.linkedin.com/in/fernandoxfcrespo\" class=\"webicon linkedin\">linkedin</a>\n                  <a href=\"http://instagram.com/fernando82\" class=\"webicon instagram\">instagram</a>\n                  <a href=\"https://plus.google.com/101788643863044247809\" class=\"webicon googleplus\">google+</a>\n                </p>\n              </div>\n            </div>\n          </div>\n        </div> <!-- /container -->\n    </body>\n</html>\n",
 			"file": "_layouts/default.html",
-			"file_size": 1840,
-			"file_write_time": 1377723247000000,
 			"settings":
 			{
-				"buffer_size": 1810,
+				"buffer_size": 1783,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_drafts/Editorial-Markdown-Table-CleanUp.txt",
+			"file": "/home/fernando/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 162,
+				"buffer_size": 22,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/fernando/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+			"file": "/home/fernando/.config/sublime-text-2/Packages/User/MultiMarkdown.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 214,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_drafts/Evernote-Export.txt",
-			"settings":
-			{
-				"buffer_size": 134,
+				"buffer_size": 60,
 				"line_ending": "Unix"
 			}
 		},
@@ -50,14 +39,26 @@
 				"line_ending": "Unix",
 				"name": "select sist.id_sistema, ua.nm_undd, top.des_ope, u"
 			}
+		},
+		{
+			"file": "_drafts/Editorial-Markdown-Table-CleanUp.txt",
+			"settings":
+			{
+				"buffer_size": 1615,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 54.0,
+		"height": 285.0,
 		"selected_items":
 		[
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -67,7 +68,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 572.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -84,6 +85,11 @@
 	},
 	"file_history":
 	[
+		"/home/fernando/git/fcrespo82.github.io/_drafts/Editorial-Markdown-Table-CleanUp.mmd",
+		"/home/fernando/git/fcrespo82.github.io/_drafts/Editorial-Markdown-Table-CleanUp.txt",
+		"/home/fernando/git/fcrespo82.github.io/_drafts/Evernote-Export.txt",
+		"/home/fernando/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/fernando/.config/sublime-text-2/Packages/MarkdownEditing/Markdown.sublime-settings",
 		"/home/fernando/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/fernando/.config/autokey/data/All/.dts.txt",
 		"/home/fernando/.config/autokey/data/All/.dts.py",
@@ -96,7 +102,6 @@
 		"/usr/share/applications/defaults.list",
 		"/home/fernando/Downloads/portugues.xml",
 		"/home/fernando/.config/sublime-text-2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
-		"/home/fernando/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
 		"/home/fernando/apps/sqldeveloper/sqldeveloper.desktop",
 		"/home/fernando/apps/iReport-nb-3.5.1/ireport.desktop"
 	],
@@ -145,15 +150,15 @@
 					"file": "_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 1810,
+						"buffer_size": 1783,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								753,
-								753
+								1462,
+								1462
 							]
 						],
 						"settings":
@@ -170,23 +175,23 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_drafts/Editorial-Markdown-Table-CleanUp.txt",
+					"file": "/home/fernando/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 162,
+						"buffer_size": 22,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								162,
-								162
+								1,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -196,18 +201,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "/home/fernando/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+					"file": "/home/fernando/.config/sublime-text-2/Packages/User/MultiMarkdown.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 214,
+						"buffer_size": 60,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								55,
+								55
 							]
 						],
 						"settings":
@@ -222,32 +227,6 @@
 				},
 				{
 					"buffer": 3,
-					"file": "_drafts/Evernote-Export.txt",
-					"settings":
-					{
-						"buffer_size": 134,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								127,
-								127
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"settings":
 					{
 						"buffer_size": 1052,
@@ -266,6 +245,32 @@
 							"auto_name": "select sist.id_sistema, ua.nm_undd, top.des_ope, u",
 							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_drafts/Editorial-Markdown-Table-CleanUp.txt",
+					"settings":
+					{
+						"buffer_size": 1615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								134,
+								134
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
