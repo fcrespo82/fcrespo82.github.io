@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Evernote export"
-categories: python evernote export
----
-
-Escrever sobre o exportador para evernote em inglês
