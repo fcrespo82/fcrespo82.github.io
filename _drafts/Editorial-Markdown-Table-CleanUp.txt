@@ -1,7 +1,0 @@
----
-layout: post
-title:  "Editorial markdown table cleanup"
-categories: python editorial markdown workflow
----
-
-Escrever sobre o workflow para editorial em inglês
