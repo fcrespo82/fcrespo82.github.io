@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Porque sua linha do tempo do Twitter é um lixo"
-date:   2013-06-25
 tags: twitter opinião
 ---
 

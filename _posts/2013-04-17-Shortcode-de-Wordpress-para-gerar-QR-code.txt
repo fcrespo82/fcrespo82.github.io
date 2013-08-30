@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Shortcode de Wordpress para gerar QR code"
-date:   2013-04-17
 tags: wordpress plugin
 ---
 

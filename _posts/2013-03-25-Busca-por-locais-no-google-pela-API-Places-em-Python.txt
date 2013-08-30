@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Busca por locais no google pela API places em Python"
-date:   2013-03-25
 tags: automação google API python
 ---
 

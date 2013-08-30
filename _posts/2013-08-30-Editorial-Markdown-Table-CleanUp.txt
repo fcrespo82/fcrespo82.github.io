@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Editorial markdown table cleanup"
+tags: python editorial markdown workflow ios
+---
+
+When I first heard about Ole Zorn's [Editorial][editorial] I was very excited to try it. But as I'm not a beta tester I had to wait until its launch. I bought it at the very minute that I saw it in the App Store. My first impression was "This app is awesome", and I started to read what others where doing withthat kind of power in their hands. Gabe Weatherhead from [MacDrifter][macdrifter] wrote a great article about it, and Federico Viticci from [MacStories][macstories] wrote a extensive review of the app that shows all its greatness.
+
+I started to wonder what could I do to share with the great community of markdown/ios/python lovers. Well, port one of my most beloved OS X services. From [Brett Terpstra][brett]'s [Markdown Service Tools][mdst], **md - Tables - Cleanup**.
+
+But as it was written in perl[^dontknow], I took only his regular expressions as a base for my script, the rest was up to me.
+
+[This][shared] is my first attempt to make a complex workflow[^1] in Editorial but I think it's pretty good and functional for the time being. Any questions or bug reports please leave me your comments in either one of my social networks down below.
+
+I'm sure someone could do a better job in creating this stuff, but I love scripting.
+
+[^dontknow]: And I don't know anything in perl.
+
+[macdrifter]: http://macdrifter.com
+[brett]: http://brettterpstra.com
+[macstories]: http://www.macstories.net/
+[editorial]: http://omz-software.com/editorial/
+[shared]: http://editorial-app.appspot.com/workflow/4999994767572992/4o5n1PocfnU
+[mdst]: http://brettterpstra.com/projects/markdown-service-tools/
+
+[^1]: Complex in the sense of the programming behind it, because the workflow per se only has a couple of sequencial items.

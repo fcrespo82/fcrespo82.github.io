@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Como enviar mensagens push para seu iPhone através do Python"
-date:   2013-03-21
 tags: automação notificação
 ---
 

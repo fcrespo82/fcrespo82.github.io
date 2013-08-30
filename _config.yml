@@ -1,5 +1,4 @@
-name: Fernando's Blog
-markdown: redcarpet
+name: Fernando Crespo
 pygments: true
 
 permalink: /:year/:month/:day/:title/

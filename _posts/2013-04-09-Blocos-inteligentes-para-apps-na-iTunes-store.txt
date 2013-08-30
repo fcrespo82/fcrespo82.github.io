@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Blocos inteligentes para apps na iTunes Store"
-date:   2013-04-09
 tags: wordpress automação API python
 ---
 
