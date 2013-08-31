@@ -6,7 +6,7 @@ tags: python editorial markdown workflow ios
 
 When I first heard about Ole Zorn's [Editorial][editorial] I was very excited to try it. But as I'm not a beta tester I had to wait until its launch. I bought it at the very minute that I saw it in the App Store. My first impression was "This app is awesome", and I started to read what others where doing withthat kind of power in their hands. Gabe Weatherhead from [MacDrifter][macdrifter] wrote a great article about it, and Federico Viticci from [MacStories][macstories] wrote a extensive review of the app that shows all its greatness.
 
-I started to wonder what could I do to share with the great community of markdown/ios/python lovers. Well, port one of my most beloved OS X services. From [Brett Terpstra][brett]'s [Markdown Service Tools][mdst], **md - Tables - Cleanup**.
+I started to wonder what could I do to share with the great community of markdown/ios/python lovers. Well, port one of my most beloved OS X services. <del>From [Brett Terpstra][brett]'s [Markdown Service Tools][mdst], **md - Tables - Cleanup**.</del> Actually Brett [told me at twitter][ref] that he grabbed that script from [Fletcher Penney][fp] original [MultiMarkdown][mmd].
 
 But as it was written in perl[^dontknow], I took only his regular expressions as a base for my script, the rest was up to me.
 
@@ -22,5 +22,8 @@ I'm sure someone could do a better job in creating this stuff, but I love script
 [editorial]: http://omz-software.com/editorial/
 [shared]: http://editorial-app.appspot.com/workflow/4999994767572992/4o5n1PocfnU
 [mdst]: http://brettterpstra.com/projects/markdown-service-tools/
+[fp]: http://fletcherpenney.net/
 
 [^1]: Complex in the sense of the programming behind it, because the workflow per se only has a couple of sequencial items.
+[mmd]: https://github.com/fletcher/MultiMarkdown
+[ref]: https://twitter.com/ttscoff/status/373577581619978241
