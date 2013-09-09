@@ -156,6 +156,10 @@ ul.posts span {
   border: none;
 }
 
+.post del {
+  opacity: 0.5;
+}
+
 /* terminal */
 .post pre.terminal {
   border: 1px solid #000;
@@ -165,8 +169,4 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
-}
-
-.post del {
-  opacity: 0.5;
 }
