@@ -2,24 +2,28 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
-<div class="post">
-	{{ content }}
+<div class="row">
+	<div class="col-md-8 col-md-offset-2">
+		<h2>{{ page.title }}</h2>
+		<p class="meta">{{ page.date | date_to_string }}</p>
+		
+		<div class="post" style="text-align:justify;">
+			{{ content }}
+		</div>
+		
+		<div class="categories">Tags:&nbsp;
+			{% for tag in page.tags %}
+			<span class="label label-info"><a href="/tags/{{ tag }}/">{{ tag }}</a></span>
+			{% endfor %}
+		</div>
+		
+		<!--<div class="related">Related:&nbsp;
+			{% for related in site.related_posts %}
+			<a href="{{ related.url }}" style="font-size: 9px;">{{ related.title }}</a>
+			{% endfor %}
+		</div>-->
+	</div>
 </div>
-
-<div class="categories">Tags:&nbsp;
-	{% for tag in page.tags %}
-	<span><a href="/tags/{{ tag }}/">{{ tag }}</a></span>
-	{% endfor %}
-</div>
-
-<!--<div class="related">Related:&nbsp;
-	{% for related in site.related_posts %}
-	<a href="{{ related.url }}" style="font-size: 9px;">{{ related.title }}</a>
-	{% endfor %}
-</div>-->
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
