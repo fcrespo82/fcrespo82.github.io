@@ -8,6 +8,8 @@ Hoje a [Agile Tortoise][at] liberou uma nova versão do seu app para iPhone e iP
 
 É um dos apps que mais me chamou a atenção na AppStore nos últimos tempos, assim como o [Launch Center Pro][lcp] e [Pythonista][p].
 
+<!--more-->
+
 Quem tem um iDevice e ainda não conhece o aplicativo, sugiro que veja o mais rápido possível! Estes aplicativos tornam a integração de ações e alpicativos no iOS uma maravilha, porém não é para qualquer. Eles exigem um pequeno estudo para que funcionem do jeito que foram idealizados, mas nada mais do que alguns minutos.
 
 [at]: http://agiletortoise.com/

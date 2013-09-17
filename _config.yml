@@ -4,6 +4,9 @@ pygments: true
 permalink: /:year/:month/:day/:title/
 
 timezone: America/Sao_Paulo
+default_locale: pt-BR
 
 markdown: kramdown
 markdown_ext: markdown,mkd,mkdn,md,txt
+
+excerpt_separator: <!--more-->

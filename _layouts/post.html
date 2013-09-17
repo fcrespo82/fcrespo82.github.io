@@ -1,25 +1,20 @@
 ---
 layout: default
 ---
-
 <div class="row">
 	<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-		<!-- <h2></h2> -->
 		<div class="page-header">
-  		<h1>{{ page.title }}</h1>
+  			<h1>{{ page.title }}</h1>
 		</div>
 		<p class="meta">{{ page.date | date_to_string }}</p>
-		
-		<div class="post" >
+		<div class="post text-justify" >
 			{{ content }}
 		</div>
-		
 		<div class="categories text-center">tags&nbsp;
 			{% for tag in page.tags %}
 			<a href="/tags/{{ tag }}/"><span class="label label-primary">{{ tag }}</span></a>
 			{% endfor %}
 		</div>
-		
 		<!--<div class="related">Related:&nbsp;
 			{% for related in site.related_posts %}
 			<a href="{{ related.url }}" style="font-size: 9px;">{{ related.title }}</a>

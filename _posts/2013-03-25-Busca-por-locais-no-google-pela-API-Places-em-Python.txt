@@ -10,7 +10,9 @@ seguidores sobre como fazer um script para Pythonista[^1] que buscasse um
 endereço no google e abrisse o primeiro resultado no aplicativo de mapas da
 Apple.
 
-<blockquote class="twitter-tweet"><p>I may need to talk to <a href="https://twitter.com/viticci">@viticci</a> about a Pythonista script to search Google and send the result to Maps.</p>&mdash; David Barnard (@drbarnard) <a href="https://twitter.com/drbarnard/statuses/315159414069932032">March 22, 2013</a></blockquote>
+<!--more-->
+
+<blockquote class="twitter-tweet" align="center"><p>I may need to talk to <a href="https://twitter.com/viticci">@viticci</a> about a Pythonista script to search Google and send the result to Maps.</p>&mdash; David Barnard (@drbarnard) <a href="https://twitter.com/drbarnard/statuses/315159414069932032">March 22, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Como tenho uma certa experiencia com Python, e uma queda por desafios em

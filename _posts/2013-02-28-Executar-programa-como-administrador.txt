@@ -3,7 +3,6 @@ layout: post
 title:  "Executar programa como administrador no mac"
 tags: osx mac applescript
 ---
-
 Algum tempo atrás estava a procura de um modo de executar algum aplicativo no
 Mac OS X Mountain Lion com privilégios de administrador, do mesmo jeito que no
 Windows. Encontrei um programa chamado [LaunchAsRoot][1], e enquanto ele faz
@@ -11,6 +10,8 @@ exatamente o que eu queria achei um pouco invasivo pois precisava instalar o app
 e então abri-lo e depois arrastar o ícone do app que eu queria rodar como
 administrador para a interface dele. Funcional? Com certeza. Prático? Não pra
 mim.
+
+<!--more-->
 
 Foi então que recentemente fiz outra busca e encontrei um
 script, em AppleScript, que executa um app com privilégios de administrador. O
