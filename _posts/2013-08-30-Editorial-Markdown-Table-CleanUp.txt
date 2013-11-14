@@ -3,7 +3,7 @@ layout: post
 title:  "Editorial MultiMarkdown table cleanup"
 tags: python editorial markdown multimarkdown workflow ios
 ---
-When I first heard about Ole Zorn's [Editorial][editorial] I was very excited to try it. But as I'm not a beta tester I had to wait until its launch. I bought it at the very minute that I saw it in the App Store. My first impression was "This app is awesome", and I started to read what others where doing withthat kind of power in their hands. Gabe Weatherhead from [MacDrifter][macdrifter] wrote a great article about it, and Federico Viticci from [MacStories][macstories] wrote a extensive review of the app that shows all its greatness.
+When I first heard about Ole Zorn's [Editorial][editorial] I was very excited to try it. But as I'm not a beta tester I had to wait until its launch. I bought it at the very minute that I saw it in the App Store. My first impression was "This app is awesome", and I started to read what others where doing with that kind of power in their hands. Gabe Weatherhead from [MacDrifter][macdrifter] wrote a great article about it, and Federico Viticci from [MacStories][macstories] wrote a extensive review of the app that shows all its greatness.
 
 <!--more-->
 
@@ -25,6 +25,6 @@ I'm sure someone could do a better job in creating this stuff, but I love script
 [mdst]: http://brettterpstra.com/projects/markdown-service-tools/
 [fp]: http://fletcherpenney.net/
 
-[^1]: Complex in the sense of the programming behind it, because the workflow per se only has a couple of sequencial items.
+[^1]: Complex in the sense of the programming behind it, because the workflow itself only has a couple of sequencial items.
 [mmd]: https://github.com/fletcher/MultiMarkdown
 [ref]: https://twitter.com/ttscoff/status/373577581619978241
