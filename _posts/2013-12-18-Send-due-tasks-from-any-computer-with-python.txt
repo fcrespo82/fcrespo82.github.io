@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Send Due tasks to iOS from any computer with Python"
+tags: automation python due
+---
+Today I was wondering how to send tasks from my work computer (I'm running Ubuntu) to [Due][due] (iOS).
+As the day passed by I remembered a python script I built some time ago that uses the service [Pushover][pushover] to send bits of text to my device. And as a matter of fact it supports URLs in its messages.
+
+<!--more-->
+
+So I tought, I could build a script that uses that service to accomplish my needs.
+
+After some minutes I ended up with this:
+
+{% gist 8030079 %}
+
+Of course the script can be better, such as every other script I write, but I agree with what [Dr. Drang][drdrang] wrote in [this post][post]
+
+> ...but that’s not why I don’t like it. I don’t like it because it follows a trend I see in lots of scripts: it uses object orientation for no particularly good reason.
+
+To Summarize - Why use complex object orientation classes for such a simple task?
+
+Hope someone finds it useful.
+
+[due]: http://www.dueapp.com
+[pushover]: https://pushover.net/
+[drdrang]: https://twitter.com/drdrang
+[post]: http://www.leancrew.com/all-this/2013/12/object-lesson/
