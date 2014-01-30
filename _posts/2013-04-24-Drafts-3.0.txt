@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Drafts 3.0"
-tags: drafts automation ios
+tags: drafts automation ios portugues
 ---
 
 Hoje a [Agile Tortoise][at] liberou uma nova versão do seu app para iPhone e iPad, o [Drafts][d].

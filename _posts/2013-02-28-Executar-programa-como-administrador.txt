@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Executar programa como administrador no mac"
-tags: osx mac applescript
+tags: osx mac applescript portugues
 ---
 Algum tempo atrás estava a procura de um modo de executar algum aplicativo no
 Mac OS X Mountain Lion com privilégios de administrador, do mesmo jeito que no

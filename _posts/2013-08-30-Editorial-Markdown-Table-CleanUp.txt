@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Editorial MultiMarkdown table cleanup"
-tags: python editorial markdown multimarkdown workflow ios
+tags: python editorial markdown multimarkdown workflow ios english
 ---
 When I first heard about Ole Zorn's [Editorial][editorial] I was very excited to try it. But as I'm not a beta tester I had to wait until its launch. I bought it at the very minute that I saw it in the App Store. My first impression was "This app is awesome", and I started to read what others where doing with that kind of power in their hands. Gabe Weatherhead from [MacDrifter][macdrifter] wrote a great article about it, and Federico Viticci from [MacStories][macstories] wrote a extensive review of the app that shows all its greatness.
 

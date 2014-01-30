@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Busca por locais no google pela API places em Python"
-tags: automação google API python
+tags: automação google API python portugues
 ---
 
 Sigo algumas pessoas no twitter que adoram tecnologia e ainda mais automatizar

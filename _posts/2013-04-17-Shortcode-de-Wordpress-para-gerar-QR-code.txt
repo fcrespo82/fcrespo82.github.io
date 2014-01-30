@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shortcode de Wordpress para gerar QR code"
-tags: wordpress plugin
+tags: wordpress plugin portugues
 ---
 
 O [Rafael Fischmann][rf], fundador, diretor e editor-chefe do site [MacMagazine][mm] queria melhorar os posts sobre aplicativos do site, ele tinha em mente acrescentar [QR codes][qr] para que os usuários que estivessem lendo seus reviews no computador pudessem baixar os aplicativos de forma rápida no seu *iDevice*, mas como o site usa links de afiliados estavam tendo problemas com a url. Ele me perguntou se poderia ajudá-lo e claro que fui resolvi ajudar!

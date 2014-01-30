@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Blocos inteligentes para apps na iTunes Store"
-tags: wordpress automação API python
+tags: wordpress automação API python portugues
 ---
 
 Leio muitos posts e reviews de aplicativos, mas as vezes coloco na minha lista
