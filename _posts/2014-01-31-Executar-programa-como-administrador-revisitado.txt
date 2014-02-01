@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Executar programa como administrador no mac [revisitado]"
+tags: osx mac applescript portugues revisitado
+---
+No meu primeiro post neste blog, a mais ou menos 1 ano atrás, falei em como executar um aplicativo no Mac como admnistrador. Recentemente recebi um comentário no meu blog antigo pedindo um passo a passo de como realizar essa configuração. Resolvi revisitar meu post e realizar o pedido de um de meus leitores.
+
+<!--more-->
+
+### Criando o serviço no automator
+
+Abra o aplicativo **Automator** em seu **Mac**.
+
+Clique em **Novo documento** na tela inicial
+
+![img1](/img/2014-01-31-Executar-programa-como-administrador-revisitado-img1.png)
+
+Em seguida escolha **Serviço**
+
+![img2](/img/2014-01-31-Executar-programa-como-administrador-revisitado-img2.png)
+
+Na tela de criação do Serviço selecione:
+
+1. Serviço recebe selecionados **arquivos ou pastas**(1) em **Finder**(2);
+2. Acrescente um bloco de ação **Executar AppleScript** e dentro deste bloco cole o conteúdo a seguir(3)
+
+{% gist 5215611 %}
+
+![img3](/img/2014-01-31-Executar-programa-como-administrador-revisitado-img3.png)
+
+Pronto, salve o serviço com o nome que mais lhe agrade e ele estará pronto para ser utilizado.
+
+![img4](/img/2014-01-31-Executar-programa-como-administrador-revisitado-img4.png)
+
+Para utilizá-lo:
+
+1. Abra o **Finder**;
+2. abra a pasta de **Aplicativos**;
+3. clique com o **botão direito** no aplicativo que deseja abrir;
+4. clique em **Serviços**;
+5. e selecione o **novo serviço** que aparece na lista.
+
+![img5](/img/2014-01-31-Executar-programa-como-administrador-revisitado-img5.png)
+
+Agora basta digitar sua senha e pronto. O aplicativo será aberto com privilégios administrativos.
