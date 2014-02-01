@@ -11,6 +11,15 @@ comments: true
 		<div class="post text-justify" >
 			{{ content }}
 		</div>
+		<div class="footer">
+			You should follow the author on 
+		</div>
+		<hr/>
+		<div class="categories text-center">tags&nbsp;
+			{% for tag in page.tags %}
+			<a href="/tags/{{ tag }}/"><span class="label label-primary">{{ tag }}</span></a>
+			{% endfor %}
+		</div>
 		{% if page.comments %}
 		<div id="comments">
 			<div id="disqus_thread"></div>
@@ -28,11 +37,6 @@ comments: true
 		    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a> 
 		</div>
 		{% endif %}
-		<div class="categories text-center">tags&nbsp;
-			{% for tag in page.tags %}
-			<a href="/tags/{{ tag }}/"><span class="label label-primary">{{ tag }}</span></a>
-			{% endfor %}
-		</div>
 		<!--<div class="related">Related:&nbsp;
 			{% for related in site.related_posts %}
 			<a href="{{ related.url }}" style="font-size: 9px;">{{ related.title }}</a>

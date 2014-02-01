@@ -5,7 +5,7 @@ title: Fernando's Blog
 <div class="row">
     {% for post in site.posts %}
     <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-        <h1>{{ post.title }}</h1>
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
         <h6>{{ post.date | date_to_string }}</h6>
         <div class="text-justify">{{ post.excerpt }}</div>
         <p><a class="btn btn-primary btn-xs" href="{{ post.url }}">read more &raquo;</a></p>
