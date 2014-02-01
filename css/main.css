@@ -19,7 +19,7 @@
 }
 
 img {
-    width: 750px;
+    width: 100% !important;
     -webkit-box-shadow: 0 0 20px 0 #AAA;
-box-shadow: 0 0 20px 0 #AAA;
+    box-shadow: 0 0 20px 0 #AAA;
 }
