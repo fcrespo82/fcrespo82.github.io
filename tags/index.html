@@ -5,13 +5,19 @@ layout: default
     $(document).ready(function(){
         $('.navbar-nav > li').removeClass('active');
         $('#tags_menu').addClass('active');
+        $("[id*=label_]").hide();
     })
 </script>
 <div id="content">
-  <h1>Tags on blog</h1>
+  <h1>TAGS</h1>
   <ul class="posts">
     {% for tag in site.tags %}
-      <li><a href="/tags/{{ tag.first }}">{{ tag.first }}</a></li>
+      <li><a href="#label_{{ tag[0] | downcase }}" onclick='$("[id*=label_]:not([id*=label_{{ tag[0] }}])").hide(250); $("[id*=label_{{ tag[0] }}]").toggle(250); event.preventDefault();'>{{ tag[0] | downcase }}</a>
+      <ul id="label_{{ tag[0] | downcase  }}">
+      {% for post in tag[1] %}
+          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul></li>
     {% endfor %}
   </ul>
 </div>
