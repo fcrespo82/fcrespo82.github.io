@@ -6,6 +6,8 @@ layout: default
         $('.navbar-nav > li').removeClass('active');
         $('#tags_menu').addClass('active');
         $("[id*=label_]").hide();
+        hash=window.location.hash.substr(1);
+        $("[id*=label_"+hash+"]").show();
     })
 </script>
 <div id="content">

@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Synology DS413j transcoding limitation workaround"
+tags: nas workaround english
+---
+At twitter [Nikunj Patel](http://www.twitter.com/nikpatel222) asked me for a recommendation on a [Synology](http://www.synology.com/en-global/) NAS. Should he buy the [DS412+](http://l.crespo.in/1mxAcIy) or [DS413j](http://l.crespo.in/1gOfGw1)?
+
+As pointed out the DS413j can't do live video transcoding because of its ARM processor, on the up side is far cheaper than DS412+.
+
+So he asked me for my workaround to that limitation.
+
+<!--more-->
+
+## My setup
+
+- Hardware
+    - Macbook Pro
+    - Apple TV
+    - iPad
+    - iPhone
+    - DS413j
+
+- Software
+    - [iFlicks](http://www.iflicksapp.com/) (conversion tool)
+    - [Hazel](http://www.noodlesoft.com/hazel.php) (automation tool)
+    - [Synology Download Station](http://www.synology.com/en-us/releaseNote/package/DownloadStation) (downloader)
+    - [Subliminal](https://github.com/Diaoul/subliminal) (subtitle downloader)
+
+## My workaround
+
+1. Download Station downloads what I want to watch in my library to a folder in my NAS
+2. My notebook watches that folder (using Hazel) and then download the subtitles for the series/movie (using subliminal) and move the file to a folder named `with_subtitles`
+3. iFlicks watches the `with_subtitles` folder and convert the video using the preset "Compatible with iTunes" and add it to the iTunes library (which is located on the NAS)
+4. Since I own mostly Apple devices that's "all" I have to do. And because my notebook is always kept on I can watch it from my iTunes library via **Home Sharing**.
+
+## Downsides
+
+My notebook must be kept on for converting and watching. I know I can remove part of that limitation using another software (avconv/ffmpeg) instead of iFlicks, but I do not have the time to change it right now. And maybe I can manage to have the NAS to serve my files through Video Station (DLNA) and bypass the iTunes library limitation.
