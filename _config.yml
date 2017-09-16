@@ -14,3 +14,4 @@ excerpt_separator: <!--more-->
 
 gems:
   - jekyll-gist
+theme: jekyll-theme-architect
