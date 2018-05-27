@@ -67,15 +67,20 @@
         </div>
     </div>
     {{content}}
-
-    <hr/>
-    <footer>
-        <div class="svg col-xs-5 col-sm-5 col-md-5">
-            Find me at: {% for service in site.services %}
+    <div class="nav navbar-default navbar-fixed-bottom">
+        <div class="svg container-fluid">
+            <div class="navbar-text">
+                Find me at: 
+            </div>
+            <!-- <ul class="nav navbar-nav"> -->
+                <div class="navbar-text">
+            {% for service in site.services %}
             <a href="{{ service.url }}" target="_blank" class="webicon {{ service.name }}">{{ service.name }}</a>
             {% endfor %}
         </div>
-    </footer>
+            <!-- </ul> -->
+        </div>
+    </div>
     <!-- /container -->
     <script src="/js/vendor/bootstrap.min.js"></script>
     <script src="/js/main.js"></script>

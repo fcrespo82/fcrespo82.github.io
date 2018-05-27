@@ -7,13 +7,13 @@ tags: raspberrypi fix english
 
 I don't know exactly what is going on with my Pi, but all of the sudden it drops IP v4 connection and only IP v6 is available.
 
-I don't want to disable IP v6 but I need a way to monitor and fix this. This is basically a reminder for me in case I reinstall Raspbian from scratch and forget about this.
+I don't want to disable IP v6 but I need a way to monitor and fix this. This is basically a reminder for me in case I reinstall Raspbian on my Pi from scratch and forget about this.
 
 <!--more-->
 
-I started to search the internet and found [this post](https://samhobbs.co.uk/2013/11/fix-for-ethernet-connection-drop-on-raspberry-pi) which more or less resambles what I am seeing.
+I started to search the internet and found [this post](https://samhobbs.co.uk/2013/11/fix-for-ethernet-connection-drop-on-raspberry-pi) which more or less resembles what I am seeing.
 
-The steps to fix are basically the same, just modified the script for my use case and BOOM, we are up again! Hope this fix things from now on. I'll keep checking and if I have any problem I'll post an update.
+The steps to fix are basically the same, I just modified the script for my use case and BOOM, we are up again! Hope this fix things from now on. I'll keep checking and if I have any problem I'll post an update.
 
 Here is the script:
 
@@ -39,6 +39,6 @@ fi
 
 ```
 
-## Automating with cron
+### Automating with cron
 
-In the post I found the solution it uses `/etc/crontab` to automate the checking, but it was not working for me, so I used `sudo crontab -u root -e` to edit the cron file mas then it worked as expected.
+In the post I found the solution uses `/etc/crontab` to automate the checking, but it was not working for me, so I used `sudo crontab -u root -e` to edit the crontab file, then it worked as expected.
