@@ -2,6 +2,11 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -9,10 +14,6 @@
 /* ==========================================================================
    Posts
    ========================================================================== */
-
-.post {
-    text-align: justify;
-}
 
 .post del {
     opacity: 0.5;
@@ -26,4 +27,8 @@ img {
 
 section {
     padding-bottom: 70px; 
+}
+
+.webicon {
+    margin-left: 8px !important;
 }

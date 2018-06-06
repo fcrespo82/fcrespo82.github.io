@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<!doctype html>
+<html>
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -13,7 +8,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-43718744-1');
     </script>
 
@@ -21,69 +15,62 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ page.title }}</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="/css/syntax.css">
-    <style>
-        body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-        }
-    </style>
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/webicons.css">
-    <script src="/js/vendor/jquery-1.10.1.min.js"></script>
-    <script src="/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/">{{ site.author }}</a>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li id="home_menu">
-                        <a href="/">Home</a>
-                    </li>
-                    <li id="tags_menu">
-                        <a href="/tags">Tags</a>
-                    </li>
-                </ul>
-            </div>
-            <!--/.navbar-collapse -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">{{ site.author }}</a>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class='nav-item' id="home_menu">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class='nav-item' id="tags_menu">
+                    <a class="nav-link" href="/tags">Tags</a>
+                </li>
+            </ul>
         </div>
-    </div>
+        <!--/.navbar-collapse -->
+        </div>
+    </nav>
     {{content}}
-    <div class="nav navbar-default navbar-fixed-bottom">
-        <div class="svg container-fluid">
-            <div class="navbar-text">
-                Find me at: 
-            </div>
-            <!-- <ul class="nav navbar-nav"> -->
-                <div class="navbar-text">
-            {% for service in site.services %}
-            <a href="{{ service.url }}" target="_blank" class="webicon {{ service.name }}">{{ service.name }}</a>
-            {% endfor %}
+    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-bottom">
+        <div class="collapse navbar-collapse">
+            <span class="navbar-text">
+                Find me at:
+            </span>
+            <ul class="navbar-nav mr-auto svg">
+                {% for service in site.services %}
+                <li class="nav-item">
+                    <a href="{{ service.url }}" target="_blank" class="nav-link webicon {{ service.name }}">{{ service.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </div>
-            <!-- </ul> -->
-        </div>
-    </div>
+    </nav>
     <!-- /container -->
-    <script src="/js/vendor/bootstrap.min.js"></script>
+    <!-- <script src="/js/vendor/bootstrap.min.js"></script> -->
     <script src="/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

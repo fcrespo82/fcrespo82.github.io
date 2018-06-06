@@ -2,31 +2,31 @@
 layout: default 
 ---
 <script type="text/javascript">
-  $(document).ready(function () {
-    $('.navbar-nav > li').removeClass('active');
-    $('#tags_menu').addClass('active');
-    $("[id*=label_]").hide();
-    hash = window.location.hash.substr(1);
-    if (hash !== '') {
-      $("[id*=label_" + hash + "]").show();
-    }
-  })
+    $(document).ready(function () {
+        $('.navbar-nav > li').removeClass('active');
+        $('#tags_menu').addClass('active');
+        $("[id*=label_]").hide();
+        hash = window.location.hash.substr(1);
+        if (hash !== '') {
+            $("[id*=label_" + hash + "]").show();
+        }
+    })
 </script>
 <div id="content" class="container">
-  <h1>TAGS</h1>
-  <ul class="posts">
-    {% for tag in site.tags %}
-    <li>
-      <a href="#label_{{ tag[0] | downcase }}" onclick='$("[id*=label_]:not([id*=label_{{ tag[0] }}])").hide(250); $("[id*=label_{{ tag[0] }}]").toggle(250); event.preventDefault();'>{{ tag[0] | downcase }}</a>
-      <ul id="label_{{ tag[0] | downcase  }}">
-        {% for post in tag[1] %}
+    <h1>TAGS</h1>
+    <ul class="posts">
+        {% for tag in site.tags %}
         <li>
-          <span>{{ post.date | date_to_string }}</span> &raquo;
-          <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="#label_{{ tag[0] | downcase }}" onclick='$("[id*=label_]:not([id*=label_{{ tag[0] }}])").hide(250); $("[id*=label_{{ tag[0] }}]").toggle(250); event.preventDefault();'>{{ tag[0] | downcase }}</a>
+            <ul id="label_{{ tag[0] | downcase  }}">
+                {% for post in tag[1] %}
+                <li>
+                    <span>{{ post.date | date_to_string }}</span> &raquo;
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
         </li>
         {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+    </ul>
 </div>
